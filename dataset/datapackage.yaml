@@ -2,7 +2,7 @@ name: projetos-contratados
 owner_org: fundacao-de-amparo-a-pesquisa-fapemig
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: A divulgação de dados abertos dos projetos contratados pela FAPEMIG é um marco crucial rumo à transparência e prestação de contas à sociedade.
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -21,12 +21,12 @@ resources:
         - name: processo
           type: string
           description: Um número de identificação único atribuído ao projeto pela FAPEMIG, usado como referência para acompanhamento e identificação.
-          title:   Processo
+          title: Processo
           format: default
         - name: coordenador
           type: string
           description: O pesquisador principal ou líder do projeto, responsável por sua execução e supervisão.
-          title:   Coordenador
+          title: Coordenador
           format: default
         - name: modalidade
           type: string
@@ -46,7 +46,7 @@ resources:
         - name: grupochamada
           type: string
           description:  O nome da iniciativa divulgada pela FAPEMIG, na qual a instituição convida pesquisadores a submeterem propostas em áreas ou temas de pesquisa específicos.
-          title:   Chamada - grupo
+          title:  Chamada - grupo
           format: default
         - name: linha
           type: string
@@ -56,7 +56,7 @@ resources:
         - name: titulo
           type: string
           description: O nome oficial do projeto, que deve refletir seu escopo e objetivo principal.
-          title:   Título
+          title:  Título
           format: default
         - name: area
           type: string
@@ -65,7 +65,7 @@ resources:
           format: default
         - name: camaraavaliacao
           type: string
-          description: 
+          description: Camara de Avaliação
           title: Camara Avaliação
           format: default
         - name: valorcontratado
@@ -97,7 +97,6 @@ resources:
           type: datetime
           description: A data de publicação das informações sobre o projeto.
           title: Data de disponibilização  
-          format: default
     scheme: file
     title: Projetos Contratados
 title: Projetos contratados
