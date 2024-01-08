@@ -98,24 +98,6 @@ resources:
           description: A data de publicação das informações sobre o projeto.
           title: Data de disponibilização  
           format: default
-        - name: unnamed_17
-          type: any
-        - name: unnamed_18
-          type: any
-        - name: unnamed_19
-          type: any
-        - name: unnamed_20
-          type: any
-        - name: unnamed_21
-          type: any
-        - name: unnamed_22
-          type: any
-        - name: unnamed_23
-          type: any
-        - name: unnamed_24
-          type: any
-        - name: unnamed_25
-          type: any
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
+    title: Projetos Contratados
 title: Projetos contratados
