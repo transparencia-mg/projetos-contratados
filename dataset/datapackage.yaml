@@ -1,0 +1,70 @@
+name: projetos-contratados
+owner_org: fundacao-de-amparo-a-pesquisa-fapemig
+profile: data-package
+resources:
+  - description: Insira a descrição/explicação detalhada deste recurso.
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: projetos-contratados
+    path: data/projetos-contratados.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: ano
+          type: integer
+        - name: processo
+          type: string
+        - name: coordenador
+          type: string
+        - name: modalidade
+          type: string
+        - name: chamada_num
+          type: string
+        - name: chamada_desc
+          type: string
+        - name: grupochamada
+          type: string
+        - name: linha
+          type: string
+        - name: titulo
+          type: string
+        - name: area
+          type: string
+        - name: camaraavaliacao
+          type: string
+        - name: valorcontratado
+          type: number
+        - name: instituicaoexecutora_sigla
+          type: string
+        - name: instituicaoexecutora_nome
+          type: string
+        - name: instituicaogestora_sigla
+          type: string
+        - name: instituicaogestora_nome
+          type: string
+        - name: datadisponibilizacao
+          type: datetime
+        - name: unnamed_17
+          type: any
+        - name: unnamed_18
+          type: any
+        - name: unnamed_19
+          type: any
+        - name: unnamed_20
+          type: any
+        - name: unnamed_21
+          type: any
+        - name: unnamed_22
+          type: any
+        - name: unnamed_23
+          type: any
+        - name: unnamed_24
+          type: any
+        - name: unnamed_25
+          type: any
+    scheme: file
+    title: Insira um título humanamente legível para este recurso.
+title: Projetos contratados
