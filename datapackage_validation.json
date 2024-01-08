@@ -1,11 +1,11 @@
 {
   "version": "4.16.6",
-  "time": 0.967,
+  "time": 0.78,
   "errors": [],
   "tasks": [
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "description": "A divulgação de dados abertos dos projetos contratados pela FAPEMIG é um marco crucial rumo à transparência e prestação de contas à sociedade.",
         "dialect": {
           "delimiter": ";"
         },
@@ -19,120 +19,134 @@
           "fields": [
             {
               "name": "ano",
-              "type": "integer"
+              "type": "integer",
+              "description": "O ano da chamada/convênio.",
+              "title": "Ano",
+              "format": "default"
             },
             {
               "name": "processo",
-              "type": "string"
+              "type": "string",
+              "description": "Um número de identificação único atribuído ao projeto pela FAPEMIG, usado como referência para acompanhamento e identificação.",
+              "title": "Processo",
+              "format": "default"
             },
             {
               "name": "coordenador",
-              "type": "string"
+              "type": "string",
+              "description": "O pesquisador principal ou líder do projeto, responsável por sua execução e supervisão.",
+              "title": "Coordenador",
+              "format": "default"
             },
             {
               "name": "modalidade",
-              "type": "string"
+              "type": "string",
+              "description": "O tipo específico de financiamento ou programa pelo qual o projeto foi aprovado e contratado.",
+              "title": "Modalidade",
+              "format": "default"
             },
             {
               "name": "chamada_num",
-              "type": "string"
+              "type": "string",
+              "description": "O nome da iniciativa divulgada pela FAPEMIG, na qual a instituição convida pesquisadores a submeterem propostas em áreas ou temas de pesquisa específicos.",
+              "title": "Chamada - número",
+              "format": "default"
             },
             {
               "name": "chamada_desc",
-              "type": "string"
+              "type": "string",
+              "description": "O nome da iniciativa divulgada pela FAPEMIG, na qual a instituição convida pesquisadores a submeterem propostas em áreas ou temas de pesquisa específicos.",
+              "title": "Chamada - descrição",
+              "format": "default"
             },
             {
               "name": "grupochamada",
-              "type": "string"
+              "type": "string",
+              "description": "O nome da iniciativa divulgada pela FAPEMIG, na qual a instituição convida pesquisadores a submeterem propostas em áreas ou temas de pesquisa específicos.",
+              "title": "Chamada - grupo",
+              "format": "default"
             },
             {
               "name": "linha",
-              "type": "string"
+              "type": "string",
+              "description": "Uma linha de atuação da Fapemig na qual o programa está vinculado, auxilia na categorização do fomento de acordo com a finalidade da FAPEMIG.",
+              "title": "Linha",
+              "format": "default"
             },
             {
               "name": "titulo",
-              "type": "string"
+              "type": "string",
+              "description": "O nome oficial do projeto, que deve refletir seu escopo e objetivo principal.",
+              "title": "Título",
+              "format": "default"
             },
             {
               "name": "area",
-              "type": "string"
+              "type": "string",
+              "description": "O campo de estudo em que o projeto se insere, como ciências exatas, biológicas, sociais, tecnológicas, etc.",
+              "title": "Área",
+              "format": "default"
             },
             {
               "name": "camaraavaliacao",
-              "type": "string"
+              "type": "string",
+              "description": "Camara de Avaliação",
+              "title": "Camara Avaliação",
+              "format": "default"
             },
             {
               "name": "valorcontratado",
-              "type": "number"
+              "type": "number",
+              "description": "A quantia financeira concedida à equipe do projeto para a execução das atividades propostas, incluindo despesas de pesquisa, materiais, equipamentos, viagens, bolsas, entre outros.",
+              "title": "Valor Contratado",
+              "format": "default"
             },
             {
               "name": "instituicaoexecutora_sigla",
-              "type": "string"
+              "type": "string",
+              "description": "A instituição responsável pelo desenvolvimento do projeto e onde ocorrerão as principais atividades de pesquisa, que pode ser uma universidade, centro de pesquisa, empresa, etc.",
+              "title": "Instituição Executora - sigla",
+              "format": "default"
             },
             {
               "name": "instituicaoexecutora_nome",
-              "type": "string"
+              "type": "string",
+              "description": "A instituição responsável pelo desenvolvimento do projeto e onde ocorrerão as principais atividades de pesquisa, que pode ser uma universidade, centro de pesquisa, empresa, etc.",
+              "title": "Instituição Executora - nome",
+              "format": "default"
             },
             {
               "name": "instituicaogestora_sigla",
-              "type": "string"
+              "type": "string",
+              "description": "Instituição que dá suporte logístico e administrativo à execução dos projetos, realizando atividades como compra de materiais, prestação de contas financeiras, desembolsos de bolsistas, entre outros.",
+              "title": "Instituição Gestora - sigla",
+              "format": "default"
             },
             {
               "name": "instituicaogestora_nome",
-              "type": "string"
+              "type": "string",
+              "description": "Instituição que dá suporte logístico e administrativo à execução dos projetos, realizando atividades como compra de materiais, prestação de contas financeiras, desembolsos de bolsistas, entre outros.",
+              "title": "Instituição Gestora - nome",
+              "format": "default"
             },
             {
               "name": "datadisponibilizacao",
-              "type": "datetime"
-            },
-            {
-              "name": "unnamed_17",
-              "type": "any"
-            },
-            {
-              "name": "unnamed_18",
-              "type": "any"
-            },
-            {
-              "name": "unnamed_19",
-              "type": "any"
-            },
-            {
-              "name": "unnamed_20",
-              "type": "any"
-            },
-            {
-              "name": "unnamed_21",
-              "type": "any"
-            },
-            {
-              "name": "unnamed_22",
-              "type": "any"
-            },
-            {
-              "name": "unnamed_23",
-              "type": "any"
-            },
-            {
-              "name": "unnamed_24",
-              "type": "any"
-            },
-            {
-              "name": "unnamed_25",
-              "type": "any"
+              "type": "datetime",
+              "description": "A data de publicação das informações sobre o projeto.",
+              "title": "Data de disponibilização"
             }
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Projetos Contratados",
         "stats": {
-          "hash": "bea567aee9d779129da4b26083b4dad2",
-          "bytes": 8445703,
-          "fields": 26,
+          "hash": "1855a1b2fdb40e8297d40522a2e3f0af",
+          "bytes": 8260062,
+          "fields": 17,
           "rows": 20561
         }
       },
-      "time": 0.947,
+      "time": 0.766,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -177,16 +191,7 @@
             "UFTM",
             "UNIVERSIDADE FEDERAL DO TRIÂNGULO MINEIRO",
             "FUNEPU",
-            "FUNDAÇÃO DE ENSINO E PESQUISA DE UBERABA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE ENSINO E PESQUISA DE UBERABA"
           ],
           "rowNumber": 337,
           "rowPosition": 338,
@@ -223,16 +228,7 @@
             "UFTM",
             "UNIVERSIDADE FEDERAL DO TRIÂNGULO MINEIRO",
             "FUNEPU",
-            "FUNDAÇÃO DE ENSINO E PESQUISA DE UBERABA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE ENSINO E PESQUISA DE UBERABA"
           ],
           "rowNumber": 337,
           "rowPosition": 338,
@@ -269,16 +265,7 @@
             "UFV",
             "UNIVERSIDADE FEDERAL DE VIÇOSA",
             "FUNARBE",
-            "FUNDAÇÃO ARTHUR BERNARDES",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO ARTHUR BERNARDES"
           ],
           "rowNumber": 781,
           "rowPosition": 782,
@@ -315,16 +302,7 @@
             "UFV",
             "UNIVERSIDADE FEDERAL DE VIÇOSA",
             "FUNARBE",
-            "FUNDAÇÃO ARTHUR BERNARDES",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO ARTHUR BERNARDES"
           ],
           "rowNumber": 781,
           "rowPosition": 782,
@@ -354,15 +332,6 @@
             "GORCEIX",
             "FUNDAÇÃO GORCEIX",
             "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
             "",
             "",
             "",
@@ -407,16 +376,7 @@
             "UFMG",
             "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
             "FUNDEP",
-            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA"
           ],
           "rowNumber": 1437,
           "rowPosition": 1438,
@@ -453,16 +413,7 @@
             "UFMG",
             "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
             "FUNDEP",
-            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA"
           ],
           "rowNumber": 1437,
           "rowPosition": 1438,
@@ -499,16 +450,7 @@
             "UFMG",
             "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
             "FUNDEP",
-            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA"
           ],
           "rowNumber": 1484,
           "rowPosition": 1485,
@@ -545,16 +487,7 @@
             "UFMG",
             "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
             "FUNDEP",
-            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA"
           ],
           "rowNumber": 1484,
           "rowPosition": 1485,
@@ -591,16 +524,7 @@
             "UFMG",
             "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
             "FUNDEP",
-            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA"
           ],
           "rowNumber": 1939,
           "rowPosition": 1940,
@@ -637,16 +561,7 @@
             "UFMG",
             "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
             "FUNDEP",
-            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA"
           ],
           "rowNumber": 1939,
           "rowPosition": 1940,
@@ -683,16 +598,7 @@
             "UFTM",
             "UNIVERSIDADE FEDERAL DO TRIÂNGULO MINEIRO",
             "FUNEPU",
-            "FUNDAÇÃO DE ENSINO E PESQUISA DE UBERABA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE ENSINO E PESQUISA DE UBERABA"
           ],
           "rowNumber": 3562,
           "rowPosition": 3563,
@@ -729,16 +635,7 @@
             "UFTM",
             "UNIVERSIDADE FEDERAL DO TRIÂNGULO MINEIRO",
             "FUNEPU",
-            "FUNDAÇÃO DE ENSINO E PESQUISA DE UBERABA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE ENSINO E PESQUISA DE UBERABA"
           ],
           "rowNumber": 3562,
           "rowPosition": 3563,
@@ -775,16 +672,7 @@
             "UFMG",
             "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
             "FUNDEP",
-            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA"
           ],
           "rowNumber": 3751,
           "rowPosition": 3752,
@@ -821,16 +709,7 @@
             "UFMG",
             "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
             "FUNDEP",
-            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA"
           ],
           "rowNumber": 3751,
           "rowPosition": 3752,
@@ -867,16 +746,7 @@
             "UFJF",
             "UNIVERSIDADE FEDERAL DE JUIZ DE FORA",
             "FADEPE",
-            "FUNDAÇÃO DE APOIO E DESENVOLVIMENTO AO ENSINO, PESQUISA E EXTENSÃO",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE APOIO E DESENVOLVIMENTO AO ENSINO, PESQUISA E EXTENSÃO"
           ],
           "rowNumber": 5937,
           "rowPosition": 5938,
@@ -913,16 +783,7 @@
             "UFJF",
             "UNIVERSIDADE FEDERAL DE JUIZ DE FORA",
             "FADEPE",
-            "FUNDAÇÃO DE APOIO E DESENVOLVIMENTO AO ENSINO, PESQUISA E EXTENSÃO",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE APOIO E DESENVOLVIMENTO AO ENSINO, PESQUISA E EXTENSÃO"
           ],
           "rowNumber": 5937,
           "rowPosition": 5938,
@@ -959,16 +820,7 @@
             "UFLA",
             "UNIVERSIDADE FEDERAL DE LAVRAS",
             "FUNDECC",
-            "FUNDAÇÃO DE DESENVOLVIMENTO CIENTÍFICO E CULTURAL",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO CIENTÍFICO E CULTURAL"
           ],
           "rowNumber": 6405,
           "rowPosition": 6406,
@@ -1005,16 +857,7 @@
             "UFLA",
             "UNIVERSIDADE FEDERAL DE LAVRAS",
             "FUNDECC",
-            "FUNDAÇÃO DE DESENVOLVIMENTO CIENTÍFICO E CULTURAL",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO CIENTÍFICO E CULTURAL"
           ],
           "rowNumber": 6405,
           "rowPosition": 6406,
@@ -1051,16 +894,7 @@
             "UFMG",
             "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
             "FUNDEP",
-            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA"
           ],
           "rowNumber": 7711,
           "rowPosition": 7712,
@@ -1097,16 +931,7 @@
             "UFMG",
             "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
             "FUNDEP",
-            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA"
           ],
           "rowNumber": 7711,
           "rowPosition": 7712,
@@ -1143,16 +968,7 @@
             "UFMG",
             "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
             "FUNDEP",
-            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA"
           ],
           "rowNumber": 8912,
           "rowPosition": 8913,
@@ -1189,16 +1005,7 @@
             "UFMG",
             "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
             "FUNDEP",
-            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA"
           ],
           "rowNumber": 8912,
           "rowPosition": 8913,
@@ -1235,16 +1042,7 @@
             "UFMG",
             "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
             "FUNDEP",
-            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA"
           ],
           "rowNumber": 8920,
           "rowPosition": 8921,
@@ -1281,16 +1079,7 @@
             "UFMG",
             "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
             "FUNDEP",
-            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA"
           ],
           "rowNumber": 8920,
           "rowPosition": 8921,
@@ -1327,16 +1116,7 @@
             "UFMG",
             "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
             "FUNDEP",
-            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA"
           ],
           "rowNumber": 10214,
           "rowPosition": 10215,
@@ -1373,16 +1153,7 @@
             "UFMG",
             "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
             "FUNDEP",
-            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA"
           ],
           "rowNumber": 10214,
           "rowPosition": 10215,
@@ -1419,16 +1190,7 @@
             "48000",
             "UFV",
             "UNIVERSIDADE FEDERAL DE VIÇOSA",
-            "FUNARBE",
-            "FUNDAÇÃO ARTHUR BERNARDES",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNARBE"
           ],
           "rowNumber": 11069,
           "rowPosition": 11070,
@@ -1465,16 +1227,7 @@
             "48000",
             "UFV",
             "UNIVERSIDADE FEDERAL DE VIÇOSA",
-            "FUNARBE",
-            "FUNDAÇÃO ARTHUR BERNARDES",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNARBE"
           ],
           "rowNumber": 11069,
           "rowPosition": 11070,
@@ -1504,15 +1257,6 @@
             "FUNARBE",
             "FUNDAÇÃO ARTHUR BERNARDES",
             "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
             "",
             "",
             "",
@@ -1557,16 +1301,7 @@
             "UFMG",
             "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
             "FUNDEP",
-            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA"
           ],
           "rowNumber": 13167,
           "rowPosition": 13168,
@@ -1603,16 +1338,7 @@
             "UFMG",
             "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
             "FUNDEP",
-            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA"
           ],
           "rowNumber": 13167,
           "rowPosition": 13168,
@@ -1634,15 +1360,6 @@
           "fieldPosition": 1,
           "cells": [
             "ANÁLISE DOS DESTINOS NACIONAIS EM MINAS GERAIS",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
             "",
             "",
             "",
@@ -1695,16 +1412,7 @@
             "UFLA",
             "UNIVERSIDADE FEDERAL DE LAVRAS",
             "FUNDECC",
-            "FUNDAÇÃO DE DESENVOLVIMENTO CIENTÍFICO E CULTURAL",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO CIENTÍFICO E CULTURAL"
           ],
           "rowNumber": 13621,
           "rowPosition": 13622,
@@ -1741,16 +1449,7 @@
             "UFLA",
             "UNIVERSIDADE FEDERAL DE LAVRAS",
             "FUNDECC",
-            "FUNDAÇÃO DE DESENVOLVIMENTO CIENTÍFICO E CULTURAL",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO DE DESENVOLVIMENTO CIENTÍFICO E CULTURAL"
           ],
           "rowNumber": 13621,
           "rowPosition": 13622,
@@ -1787,16 +1486,7 @@
             "EPAMIG",
             "EMPRESA DE PESQUISA AGROPECUÁRIA DE MINAS GERAIS",
             "FUNARBE",
-            "FUNDAÇÃO ARTHUR BERNARDES",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO ARTHUR BERNARDES"
           ],
           "rowNumber": 14626,
           "rowPosition": 14627,
@@ -1833,16 +1523,7 @@
             "EPAMIG",
             "EMPRESA DE PESQUISA AGROPECUÁRIA DE MINAS GERAIS",
             "FUNARBE",
-            "FUNDAÇÃO ARTHUR BERNARDES",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO ARTHUR BERNARDES"
           ],
           "rowNumber": 14626,
           "rowPosition": 14627,
@@ -1859,15 +1540,6 @@
         },
         {
           "cells": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
             "",
             "",
             "",
@@ -1920,15 +1592,6 @@
             "",
             "",
             "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
             ""
           ],
           "rowNumber": 15020,
@@ -1959,15 +1622,6 @@
             "FUNDEP",
             "FUNDAÇÃO DE DESENVOLVIMENTO DA PESQUISA",
             "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
             "",
             "",
             "",
@@ -2012,16 +1666,7 @@
             "UFV",
             "UNIVERSIDADE FEDERAL DE VIÇOSA",
             "FUNARBE",
-            "FUNDAÇÃO ARTHUR BERNARDES",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO ARTHUR BERNARDES"
           ],
           "rowNumber": 15628,
           "rowPosition": 15629,
@@ -2058,16 +1703,7 @@
             "UFV",
             "UNIVERSIDADE FEDERAL DE VIÇOSA",
             "FUNARBE",
-            "FUNDAÇÃO ARTHUR BERNARDES",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO ARTHUR BERNARDES"
           ],
           "rowNumber": 15628,
           "rowPosition": 15629,
@@ -2097,15 +1733,6 @@
             "FUNARBE",
             "FUNDAÇÃO ARTHUR BERNARDES",
             "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
             "",
             "",
             "",
@@ -2150,16 +1777,7 @@
             "FCMMG/FELUMA",
             "FACULDADE DE CIENCIAS MEDICAS DE MINAS GERAIS",
             "FCO",
-            "FUNDAÇÃO CHRISTIANO OTTONI",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO CHRISTIANO OTTONI"
           ],
           "rowNumber": 20044,
           "rowPosition": 20045,
@@ -2196,16 +1814,7 @@
             "FCMMG/FELUMA",
             "FACULDADE DE CIENCIAS MEDICAS DE MINAS GERAIS",
             "FCO",
-            "FUNDAÇÃO CHRISTIANO OTTONI",
-            "2024-01-03 00:00:00",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "FUNDAÇÃO CHRISTIANO OTTONI"
           ],
           "rowNumber": 20044,
           "rowPosition": 20045,
