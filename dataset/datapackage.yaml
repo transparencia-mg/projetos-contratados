@@ -15,38 +15,89 @@ resources:
       fields:
         - name: ano
           type: integer
+          description: O ano da chamada/convênio.
+          title: Ano
+          format: default
         - name: processo
           type: string
+          description: Um número de identificação único atribuído ao projeto pela FAPEMIG, usado como referência para acompanhamento e identificação.
+          title:   Processo
+          format: default
         - name: coordenador
           type: string
+          description: O pesquisador principal ou líder do projeto, responsável por sua execução e supervisão.
+          title:   Coordenador
+          format: default
         - name: modalidade
           type: string
+          description: O tipo específico de financiamento ou programa pelo qual o projeto foi aprovado e contratado.
+          title: Modalidade
+          format: default
         - name: chamada_num
           type: string
+          description: O nome da iniciativa divulgada pela FAPEMIG, na qual a instituição convida pesquisadores a submeterem propostas em áreas ou temas de pesquisa específicos.
+          title: Chamada - número
+          format: default
         - name: chamada_desc
           type: string
+          description: O nome da iniciativa divulgada pela FAPEMIG, na qual a instituição convida pesquisadores a submeterem propostas em áreas ou temas de pesquisa específicos.
+          title: Chamada - descrição
+          format: default
         - name: grupochamada
           type: string
+          description:  O nome da iniciativa divulgada pela FAPEMIG, na qual a instituição convida pesquisadores a submeterem propostas em áreas ou temas de pesquisa específicos.
+          title:   Chamada - grupo
+          format: default
         - name: linha
           type: string
+          description: Uma linha de atuação da Fapemig na qual o programa está vinculado, auxilia na categorização do fomento de acordo com a finalidade da FAPEMIG.
+          title:   Linha
+          format: default
         - name: titulo
           type: string
+          description: O nome oficial do projeto, que deve refletir seu escopo e objetivo principal.
+          title:   Título
+          format: default
         - name: area
           type: string
+          description: O campo de estudo em que o projeto se insere, como ciências exatas, biológicas, sociais, tecnológicas, etc.
+          title: Área
+          format: default
         - name: camaraavaliacao
           type: string
+          description: 
+          title: Camara Avaliação
+          format: default
         - name: valorcontratado
           type: number
+          description: A quantia financeira concedida à equipe do projeto para a execução das atividades propostas, incluindo despesas de pesquisa, materiais, equipamentos, viagens, bolsas, entre outros.
+          title:   Valor Contratado
+          format: default
         - name: instituicaoexecutora_sigla
           type: string
+          description: A instituição responsável pelo desenvolvimento do projeto e onde ocorrerão as principais atividades de pesquisa, que pode ser uma universidade, centro de pesquisa, empresa, etc.
+          title:   Instituição Executora - sigla
+          format: default
         - name: instituicaoexecutora_nome
           type: string
+          description: A instituição responsável pelo desenvolvimento do projeto e onde ocorrerão as principais atividades de pesquisa, que pode ser uma universidade, centro de pesquisa, empresa, etc.
+          title:   Instituição Executora - nome
+          format: default
         - name: instituicaogestora_sigla
           type: string
+          description: Instituição que dá suporte logístico e administrativo à execução dos projetos, realizando atividades como compra de materiais, prestação de contas financeiras, desembolsos de bolsistas, entre outros.
+          title:   Instituição Gestora - sigla
+          format: default
         - name: instituicaogestora_nome
           type: string
+          description: Instituição que dá suporte logístico e administrativo à execução dos projetos, realizando atividades como compra de materiais, prestação de contas financeiras, desembolsos de bolsistas, entre outros.
+          title:   Instituição Gestora - nome
+          format: default
         - name: datadisponibilizacao
           type: datetime
+          description: A data de publicação das informações sobre o projeto.
+          title: Data de disponibilização  
+          format: default
         - name: unnamed_17
           type: any
         - name: unnamed_18
