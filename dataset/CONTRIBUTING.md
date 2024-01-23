@@ -13,9 +13,9 @@ Todas as contribuições são bem vindas. Alguns exemplos são:
 * Sugestões para clareza na organização das ideias;
 * Correção de erros de ortografia e gramática.
 
-Além disso, fique a vontade para utilizar os demais canais oficiais de atendimento do Poder Executivo Estadual:
+Além disso, fique a vontade para utilizar os demais canais oficiais de atendimento do Poder Executivo Estadual e da FAPEMIG:
 
-- [Fale Conosco](): Dúvidas
+- [Fale Conosco](https://faleconosco.mg.gov.br/ligminas-bpms-frontend/publico/br/gov/prodemge/seplag/ligminasbpms/visao/processos/RegistrarAtendimentoFaleConosco.zul?processo=PROC_00093&atividade=ATIV_00388&site=Fapemig): Dúvidas
 - [Manifestações de Ouvidoria](https://www.ouvidoriageral.mg.gov.br/canais-atendimento): Denúncia, Reclamação, Crítica, Elogio ou Sugestões.
-- [Pedido de Acesso à Informação](http://www.acessoainformacao.mg.gov.br/): Acesso às informações dos órgãos e entidades estaduais que não estejam publicamente disponíveis.
-- [Pedido de abertura de bases de dados](http://www.acessoainformacao.mg.gov.br/): Solicitação de abertura de bases de dados dos órgãos e entidades que não estejam publicamente disponíveis.
+- [Pedido de Acesso à Informação](http://www.acessoainformacao.mg.gov.br/): Acesso às informações da FAPEMIG que não estejam publicamente disponíveis.
+- [Pedido de abertura de bases de dados](http://www.acessoainformacao.mg.gov.br/): Solicitação de abertura de bases de dados  da FAPEMIG que não estejam publicamente disponíveis.
