@@ -131,7 +131,7 @@
           {
             "name": "data_inicio",
             "type": "datetime",
-            "description": ".",
+            "description": "Indica a data oficial de início da execução de cada projeto financiado pela FAPEMIG",
             "title": "Data de Início"
           },
           {
