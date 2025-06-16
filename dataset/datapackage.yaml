@@ -93,6 +93,14 @@ resources:
           description: Instituição que dá suporte logístico e administrativo à execução dos projetos, realizando atividades como compra de materiais, prestação de contas financeiras, desembolsos de bolsistas, entre outros.
           title:   Instituição Gestora - nome
           format: default
+        - name: data_inicio
+          type: datetime
+          description: .
+          title: Data de Início 
+        - name: data_termino
+          type: datetime
+          description: 
+          title: Data de Término
         - name: datadisponibilizacao
           type: datetime
           description: A data de publicação das informações sobre o projeto.
