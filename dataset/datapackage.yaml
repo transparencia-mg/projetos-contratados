@@ -97,10 +97,6 @@ resources:
           type: datetime
           description: .
           title: Data de Início 
-        - name: data_termino
-          type: datetime
-          description: 
-          title: Data de disponibilização
         - name: datadisponibilizacao
           type: datetime
           description: A data de publicação das informações sobre o projeto.
