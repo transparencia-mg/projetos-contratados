@@ -129,6 +129,12 @@
             "format": "default"
           },
           {
+            "name": "data_inicio",
+            "type": "datetime",
+            "description": ".",
+            "title": "Data de Início"
+          },
+          {
             "name": "datadisponibilizacao",
             "type": "datetime",
             "description": "A data de publicação das informações sobre o projeto.",
