@@ -135,6 +135,12 @@
             "title": "Data de Início"
           },
           {
+            "name": "data_termino",
+            "type": "datetime",
+            "description": "Indica a data oficial de término da execução de cada projeto financiado pela FAPEMIG",
+            "title": "Data de Início"
+          },
+          {
             "name": "datadisponibilizacao",
             "type": "datetime",
             "description": "A data de publicação das informações sobre o projeto.",
